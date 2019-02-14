@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+}
+
+.ball {
+    margin: 80px auto 0;
+    font-size: 70px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-name: tak;
+    background-color: red;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tak {
+    0% {
+        bottom: 100%;
+        left: 25%;
+    }
+
+    30% {
+        bottom: 0;
+        left: 45%;
+
+    }
+
+    50% {
+        bottom: 0;
+        left: 65%;
+
+    }
+
+    70% {
+        bottom: 0;
+        left: 85%;
+
+    }
+
+    100% {
+        bottom: 100%;
+        left: 100%;
+    }
+}

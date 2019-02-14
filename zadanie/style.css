@@ -1,0 +1,95 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    height: 20px;
+    margin-left: 120px;
+    margin: 20px 240px
+}
+
+section.baner {
+    height: 555px;
+    background-image: url("zdjecia/foto_banner.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.product {
+    background-color: #f7f7f7;
+    padding: 60px;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+h1,
+h3 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+h1:after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    position: absolute;
+    background-color: #ff8e02;
+    margin-top: 35px;
+}
+
+.productlist {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+p {
+    padding: 50px;
+}
+
+section.inspiration {
+    width: 100%;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.txt1,
+.txt2 {
+    background-color: #ff8e02;
+    width: 400px;
+    height: 400px;
+
+
+}
+
+.element img {
+    width: 40%;
+    height: 40%;
+    align-items: center;
+
+
+
+}

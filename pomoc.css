@@ -1,0 +1,34 @@
+/* wzór na wyśrodkowanie bardzo potrzebny*/
+section.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* sposób na kolorowanie*/
+svg:hover,
+svg:hover {
+    fill: pink
+}
+
+/* do htmla trzeba wrzucić czysty kod svg*/
+
+/*keyframes- animacja 0% oznacza początek trwania, 100% oznacza koniec, from/to oznacza to samo -> lepsze są %*/
+/*%- upłynięcie czasu, zapisujemy tak samo jak media-> za pomocą @*/
+/*przypomina transition, ale jest bardziej zaawansowany*/
+/*definiowanie animacji:
+-animation-name
+-animation-duration czas trwania
+-animation-iteration-count ilość powtórzeń
+-animaction-direction
+-animaction-timing-function funkcja czasu animacji
+-animation-fill-mode : forwardes: styl z ostatniego keyframe  wypełnia luki między stylami w animacji
+                        backwards: z ierwzego keyframe
+                        both: pierwszy i ostatni
+-animation-delay
+/*
+/* powtórka z display i flexa: block nie wpuszcza elementów do linii np tekst, każdy element od nowej linii to blok, inlne nie wolno zmieniać wysokości iszerokości, zawsze ma te same wymiary co content- składają się w jednej linii, inline-block kompromi- można im ustawiać wysokość i szerokość. 
+flex: flex dla rodzica zawsze, działa tylko na dzieci w bezpośrednim kontakcie z rodzicami, flex ujednolica wysokości gdy nie ma podanej, align-items działa na odwrotnej osi co justify-content*/
+/*BOOTSTRAP*/
+/*
